@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+
+#The possible levels are, in order of precedence: TRACE, DEBUG, INFO, WARN and ERROR.
+logging:
+  level:
+    root: ERROR
+    sm-controller: DEBUG
+    sm-repository: INFO
+    sm: INFO
+    org.springframework: INFO
+    org.zalando.logbook: TRACE
